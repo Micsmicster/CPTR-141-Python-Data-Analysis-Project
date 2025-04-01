@@ -1,40 +1,61 @@
-# Romanian Earthquake Data Analysis
+# CPTR 141 Final Project
 
-## 📌 Project Overview
-This project analyzes earthquake patterns in Romania using Python. The dataset, sourced from Kaggle, contains seismic activity records, which were explored to uncover trends, magnitudes, and frequencies of earthquakes. The project involves data preprocessing, statistical analysis, and visualization techniques to gain insights into seismic behavior.
+## Earthquake Data Analysis in Romania
+**Author:** Krittanatt (Mickey) Bhummabhuti  
+**WWU ID:** 2251206
 
-## 📊 Features & Analysis
-- **Data Cleaning & Preprocessing**: Handling missing values, formatting, and structuring data.
-- **Statistical Analysis**: Finding min, max, average magnitude, and frequency of earthquakes.
-- **User Interaction**: Allowing users to input specific criteria (e.g., date range, magnitude threshold) for custom analysis.
-- **Data Visualization**: Creating graphs to illustrate earthquake trends over time.
+## Introduction
+This project analyzes earthquake data recorded in Romania since 2012. The dataset includes details such as date and time, magnitude, magnitude type, depth, latitude, longitude, and zone. The primary objective of this analysis is to study earthquake patterns in Romania, identify high-risk areas, and explore potential preventive measures to enhance safety and structural integrity. Additionally, by examining past earthquake trends, we can attempt to predict future occurrences.
 
-## 🛠 Technologies Used
-- **Python**
-- **Pandas** for data manipulation
-- **Matplotlib & Seaborn** for visualization
-- **NumPy** for numerical analysis
-- **Jupyter Notebook** for development
+## Dataset Overview
+The dataset used in this project is sourced from Kaggle and contains comprehensive earthquake records from 2012 to 2024.
 
-## 📂 Dataset
-The dataset is sourced from Kaggle: [Romanian Earthquake Data](https://www.kaggle.com) *(replace with actual link)*.
+**Dataset Link:** [Earthquakes in Romania 2012-2024](https://www.kaggle.com/datasets/stefancomanita/earthquakes-in-romania-from-2012-to-2024?resource=download)
 
-## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Romanian-Earthquake-Analysis.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Open and run the Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
+### Dataset Columns:
+- **dateTime** – Timestamp of the earthquake
+- **magnitude** – Magnitude of the earthquake
+- **magnitude type** – Type of magnitude measurement
+- **depth** – Depth of the earthquake in kilometers
+- **latitude** – Latitude coordinate
+- **longitude** – Longitude coordinate
+- **zone description** – Description of the affected zone
 
-## 📌 License
-This project is licensed under the **MIT License**. Feel free to use, modify, and share with attribution.
+## Objectives and Features
+With this dataset, I aim to extract and analyze key insights, including:
+- Identifying the latest and earliest recorded earthquakes
+- Finding the top 10 highest and lowest magnitude earthquakes
+- Finding the top 10 deepest and shallowest earthquakes
+- Calculating the average and median latitude and longitude of all recorded earthquakes
+- Identifying the top 10 zones where earthquakes are most frequent
+- Analyzing the correlation between earthquake magnitude and depth
+
+### User Interaction
+The program includes user input functionalities to allow users to:
+- Search for earthquakes within a specified date range
+- Filter earthquakes based on magnitude
+- Search for earthquakes within a specified depth range
+
+## Skills and Learning Outcomes
+By working on this project, I aim to gain hands-on experience in:
+- **File handling** – Managing and processing uploaded files in Python
+- **Dataset handling** – Extracting and manipulating data to gain meaningful insights
+- **Pandas module** – Utilizing built-in functions for data analysis
+
+In a world increasingly driven by data, mastering dataset handling and analysis is a valuable skill. This project serves as a foundational step toward building expertise in data science and analytics, which can be applied in fields like earthquake prediction, climate studies, and engineering.
+
+---
+
+### Future Enhancements
+- Implementing visualization techniques to represent earthquake patterns graphically
+- Enhancing predictive analysis using machine learning models
+- Expanding the dataset to include more geographic regions for broader insights
+
+---
+
+This project provides a stepping stone toward understanding real-world data analysis and its applications in improving disaster preparedness and risk management. 🚀
+
+
 
 ## 📩 Contact
 For any questions, feel free to reach out!
