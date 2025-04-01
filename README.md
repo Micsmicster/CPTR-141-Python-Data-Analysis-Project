@@ -57,6 +57,6 @@ This project provides a stepping stone toward understanding real-world data anal
 
 ## 📩 Contact
 For any questions, feel free to reach out!
-- **GitHub**: [YourUsername](https://github.com/yourusername)
-- **LinkedIn**: [YourProfile](https://linkedin.com/in/yourprofile)
+- **GitHub**: [Micsmicster](https://github.com/Micsmicster)
+- **LinkedIn**: [Krittanatt](https://www.linkedin.com/in/krittanatt-bhummabhuti-82b72a332/)
 
