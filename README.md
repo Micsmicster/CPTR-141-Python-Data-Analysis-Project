@@ -1,8 +1,6 @@
 # CPTR 141 Final Project
 
 ## Earthquake Data Analysis in Romania
-**Author:** Krittanatt (Mickey) Bhummabhuti  
-**WWU ID:** 2251206
 
 ## Introduction
 This project analyzes earthquake data recorded in Romania since 2012. The dataset includes details such as date and time, magnitude, magnitude type, depth, latitude, longitude, and zone. The primary objective of this analysis is to study earthquake patterns in Romania, identify high-risk areas, and explore potential preventive measures to enhance safety and structural integrity. Additionally, by examining past earthquake trends, we can attempt to predict future occurrences.
